@@ -1,0 +1,104 @@
+{
+  "levelId": "toyroom_002",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "미끄럼틀 놓기",
+  "tutorial": "drag-object",
+  "cannon": {
+    "pos": [
+      0.6,
+      5
+    ],
+    "angleRange": [
+      5,
+      70
+    ],
+    "angle": 30,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "shelf",
+      "type": "wall",
+      "pos": [
+        1.2,
+        4.45
+      ],
+      "size": [
+        2.4,
+        0.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "pillar",
+      "type": "wall",
+      "pos": [
+        2,
+        0.5
+      ],
+      "size": [
+        0.2,
+        1
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "ramp",
+      "count": 1,
+      "area": "free",
+      "bounds": [
+        [
+          2.8,
+          0.8
+        ],
+        [
+          4.4,
+          3.6
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        0.9,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 63,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            3.5,
+            1.9
+          ],
+          "rot": 30
+        }
+      ]
+    },
+    {
+      "cannonAngle": 55,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            3.6,
+            3.4
+          ],
+          "rot": 45
+        }
+      ]
+    }
+  ]
+}

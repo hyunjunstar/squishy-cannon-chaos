@@ -1,0 +1,119 @@
+{
+  "levelId": "toyroom_005",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "두 번 꺾기",
+  "cannon": {
+    "pos": [
+      0.6,
+      5
+    ],
+    "angleRange": [
+      10,
+      60
+    ],
+    "angle": 30,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "shelf",
+      "type": "wall",
+      "pos": [
+        1.2,
+        4.45
+      ],
+      "size": [
+        2.4,
+        0.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "column",
+      "type": "wall",
+      "pos": [
+        1.7,
+        1.5
+      ],
+      "size": [
+        0.2,
+        3
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "ramp",
+      "count": 2,
+      "area": "free",
+      "bounds": [
+        [
+          2.6,
+          1.2
+        ],
+        [
+          4.2,
+          3.4
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        0.8,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 2,
+  "solutions": [
+    {
+      "cannonAngle": 22,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            3.7,
+            2.7
+          ],
+          "rot": -90
+        },
+        {
+          "type": "ramp",
+          "pos": [
+            3.4,
+            3.4
+          ],
+          "rot": -165
+        }
+      ]
+    },
+    {
+      "cannonAngle": 23,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            3.1,
+            3.4
+          ],
+          "rot": 15
+        },
+        {
+          "type": "ramp",
+          "pos": [
+            2.9,
+            3.1
+          ],
+          "rot": -165
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "images": [
+    {
+      "file": "img/bg_toyroom_default.png",
+      "prompt": "A cozy pastel toy room interior background: soft wallpaper with subtle pattern on the upper part and a wooden floor at the very bottom 8%; the large middle play area must be SIMPLE and EMPTY (only soft plain wall color); toys only at the far edges and corners. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Portrait 1170x2532 opaque background, no transparency. Low contrast.",
+      "date": "2026-10-04",
+      "size": "1170x2532"
+    },
+    {
+      "file": "img/device_bumper_default.png",
+      "prompt": "A bouncy rubber cushion pad, horizontal capsule/pill shape, hot pink with a lighter pink spring face on top and a white arrow pointing UP painted on it, filling full width and about 50% of height, centered. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view slightly from above.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/device_cannon_barrel_default.png",
+      "prompt": "A chunky toy cannon BARREL only, lying horizontally pointing RIGHT, pastel coral/red with a cream rim at the muzzle, the barrel occupies the full canvas width and about 40% of the height, centered vertically. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view slightly from above.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/device_cannon_base_default.png",
+      "prompt": "A toy cannon wheeled base/carriage only (no barrel), pastel blue with two round wheels, filling the full width, sitting in the bottom half of the canvas. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view slightly from above.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/device_ramp_default.png",
+      "prompt": "A long flat toy plank/ramp seen from the front, horizontal, mint green with rounded ends and small bolt dots, filling the full width but only about 16% of the height (very thin horizontal bar), centered vertically. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/prop_ball_default.png",
+      "prompt": "Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. A glossy round squishy toy ball, pastel yellow with a white star, perfectly circular filling the canvas, transparent background",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/prop_ring_gold.png",
+      "prompt": "A glossy golden toy hoop ring, front view, a circle with a clear transparent hole, filling the canvas. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/target_knockdown_default.png",
+      "prompt": "An upright cute squishy toy figure target: a round-faced jelly bear standing on a small round base, eyes open, slightly worried, pastel purple, tall, occupying about 45% of the width and the full height, centered. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop, no shadow plane). Subject centered, fills canvas edge to edge within 4% margin. Front view.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/target_knockdown_down.png",
+      "prompt": "The same upright purple jelly bear on a small round base, with dizzy swirl eyes. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background fully transparent PNG alpha. Use the existing image assets/img/target_knockdown_default.png as reference: exactly the same character, pose, framing, colors and size, but eyes replaced by dizzy swirl spirals (knocked out). Subject fills full height, ~45% width, centered.",
+      "date": "2026-10-04",
+      "size": "512x512"
+    },
+    {
+      "file": "img/ui_fire_default.png",
+      "prompt": "UI icon: a cannon firing burst with flame, orange and yellow. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_hint_default.png",
+      "prompt": "UI icon: a light bulb, pastel yellow. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_pause_default.png",
+      "prompt": "UI icon: two pause bars, pastel pink. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_restore_default.png",
+      "prompt": "UI icon: a house shape with a small reset grid, pastel peach. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_retry_default.png",
+      "prompt": "UI icon: a circular arrow going back (retry/refresh), pastel blue. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_rotate_left.png",
+      "prompt": "UI icon: a counterclockwise rotation arrow, pastel mint. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_rotate_right.png",
+      "prompt": "UI icon: a clockwise rotation arrow, pastel mint. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_speed_2x.png",
+      "prompt": "UI icon: double fast-forward triangles, pastel green. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_star_default.png",
+      "prompt": "UI icon: a fat glossy golden star. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_star_empty.png",
+      "prompt": "UI icon: a fat empty grey star, same shape as a fat star, muted grey. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_token_hint.png",
+      "prompt": "UI icon: a round coin with a light bulb embossed, gold. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_token_screw.png",
+      "prompt": "UI icon: a round silver coin with a screw embossed. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    },
+    {
+      "file": "img/ui_undo_default.png",
+      "prompt": "UI icon: a curved arrow pointing left (undo), pastel lavender. Squishy soft vinyl toy, 3D render style, pastel colors, soft top lighting, thick bold silhouette, clean simple shapes, mobile game asset, no text, no watermark. Background must be fully transparent PNG alpha (no backdrop). Chunky rounded button-like icon glyph centered filling canvas within 6% margin.",
+      "date": "2026-10-04",
+      "size": "256x256"
+    }
+  ]
+}

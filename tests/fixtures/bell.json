@@ -1,0 +1,57 @@
+{
+  "levelId": "test_bell",
+  "version": 1,
+  "theme": "toyroom",
+  "cannon": {
+    "pos": [
+      0.6,
+      0.45
+    ],
+    "angleRange": [
+      10,
+      80
+    ],
+    "angle": 45,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "bell1",
+      "type": "bell",
+      "pos": [
+        4.3,
+        0.2
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        3.4,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "forbidden": [
+    {
+      "type": "touch",
+      "target": "bell1"
+    }
+  ],
+  "starMaxObjects": 0,
+  "solutions": [
+    {
+      "cannonAngle": 28,
+      "objects": []
+    },
+    {
+      "cannonAngle": 29,
+      "objects": []
+    }
+  ]
+}

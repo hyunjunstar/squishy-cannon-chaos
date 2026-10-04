@@ -1,0 +1,99 @@
+{
+  "levelId": "toyroom_006",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "말랑 쿠션",
+  "tutorial": "bumper",
+  "cannon": {
+    "pos": [
+      0.6,
+      0.45
+    ],
+    "angleRange": [
+      55,
+      82
+    ],
+    "angle": 70,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "shelf",
+      "type": "wall",
+      "pos": [
+        1.2,
+        4.2
+      ],
+      "size": [
+        2.4,
+        0.2
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "bumper",
+      "count": 1,
+      "area": "sockets",
+      "sockets": [
+        [
+          3,
+          1.6
+        ],
+        [
+          3.6,
+          1.9
+        ],
+        [
+          4,
+          2.1
+        ],
+        [
+          4.3,
+          1.4
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        0.5,
+        4.7
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 57,
+      "objects": [
+        {
+          "type": "bumper",
+          "pos": [
+            4,
+            2.1
+          ],
+          "rot": 30
+        }
+      ]
+    },
+    {
+      "cannonAngle": 58,
+      "objects": [
+        {
+          "type": "bumper",
+          "pos": [
+            4,
+            2.1
+          ],
+          "rot": 30
+        }
+      ]
+    }
+  ]
+}

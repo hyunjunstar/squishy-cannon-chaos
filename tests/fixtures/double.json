@@ -1,0 +1,84 @@
+{
+  "levelId": "test_double",
+  "version": 1,
+  "theme": "toyroom",
+  "cannon": {
+    "pos": [
+      0.6,
+      0.45
+    ],
+    "angleRange": [
+      10,
+      80
+    ],
+    "angle": 45,
+    "speed": 8
+  },
+  "fixed": [],
+  "placeable": [
+    {
+      "type": "ramp",
+      "count": 1,
+      "area": "free",
+      "bounds": [
+        [
+          1.2,
+          0.3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        3.4,
+        0.4
+      ],
+      "dir": "any"
+    },
+    {
+      "id": "t2",
+      "type": "knockdown",
+      "pos": [
+        3.85,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 16,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            1.9,
+            2.4
+          ],
+          "rot": -75
+        }
+      ]
+    },
+    {
+      "cannonAngle": 18,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            1.8,
+            2.8
+          ],
+          "rot": 135
+        }
+      ]
+    }
+  ]
+}

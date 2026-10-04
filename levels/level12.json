@@ -1,0 +1,124 @@
+{
+  "levelId": "toyroom_012",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "고리 지나 도미노",
+  "cannon": {
+    "pos": [
+      4.2,
+      0.45
+    ],
+    "angleRange": [
+      98,
+      125
+    ],
+    "angle": 110,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "shelf",
+      "type": "wall",
+      "pos": [
+        3.6,
+        4.2
+      ],
+      "size": [
+        2.4,
+        0.2
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "bumper",
+      "count": 1,
+      "area": "sockets",
+      "sockets": [
+        [
+          1.8,
+          1.6
+        ],
+        [
+          1.2,
+          1.9
+        ],
+        [
+          0.8,
+          2.1
+        ],
+        [
+          0.5,
+          1.4
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "u1",
+      "type": "knockdown",
+      "pos": [
+        2.8,
+        4.7
+      ],
+      "dir": "any"
+    },
+    {
+      "id": "u2",
+      "type": "knockdown",
+      "pos": [
+        3.4,
+        4.7
+      ],
+      "dir": "right"
+    },
+    {
+      "id": "u3",
+      "type": "knockdown",
+      "pos": [
+        4,
+        4.7
+      ],
+      "dir": "any"
+    }
+  ],
+  "bonusGoal": {
+    "type": "ring",
+    "id": "gold1",
+    "pos": [
+      2.3,
+      4.8
+    ]
+  },
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 122,
+      "objects": [
+        {
+          "type": "bumper",
+          "pos": [
+            0.8,
+            2.1
+          ],
+          "rot": -30
+        }
+      ]
+    },
+    {
+      "cannonAngle": 122,
+      "objects": [
+        {
+          "type": "bumper",
+          "pos": [
+            0.8,
+            2.1
+          ],
+          "rot": -30
+        }
+      ]
+    }
+  ]
+}

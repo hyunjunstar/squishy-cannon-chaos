@@ -1,0 +1,102 @@
+{
+  "levelId": "test_ramp",
+  "version": 1,
+  "theme": "toyroom",
+  "cannon": {
+    "pos": [
+      0.5,
+      3.6
+    ],
+    "angleRange": [
+      10,
+      80
+    ],
+    "angle": 45,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "cshelf",
+      "type": "wall",
+      "pos": [
+        0.6,
+        3
+      ],
+      "size": [
+        1.2,
+        0.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "roof",
+      "type": "wall",
+      "pos": [
+        4.1,
+        1.6
+      ],
+      "size": [
+        1.4,
+        0.2
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "ramp",
+      "count": 1,
+      "area": "free",
+      "bounds": [
+        [
+          1.4,
+          0.4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        4.2,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 49,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            2.4,
+            1.1
+          ],
+          "rot": -30
+        }
+      ]
+    },
+    {
+      "cannonAngle": 80,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            2.8,
+            1.2
+          ],
+          "rot": -30
+        }
+      ]
+    }
+  ]
+}

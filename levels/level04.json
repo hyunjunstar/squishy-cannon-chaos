@@ -1,0 +1,125 @@
+{
+  "levelId": "toyroom_004",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "한 번에 두 개",
+  "cannon": {
+    "pos": [
+      0.6,
+      5
+    ],
+    "angleRange": [
+      5,
+      44
+    ],
+    "angle": 30,
+    "speed": 8
+  },
+  "fixed": [
+    {
+      "id": "shelf",
+      "type": "wall",
+      "pos": [
+        1.2,
+        4.45
+      ],
+      "size": [
+        2.4,
+        0.2
+      ],
+      "rot": 0
+    },
+    {
+      "id": "pillar",
+      "type": "wall",
+      "pos": [
+        2.6,
+        0.5
+      ],
+      "size": [
+        0.2,
+        1
+      ],
+      "rot": 0
+    },
+    {
+      "id": "roof",
+      "type": "wall",
+      "pos": [
+        4,
+        2.2
+      ],
+      "size": [
+        1.6,
+        0.2
+      ],
+      "rot": 0
+    }
+  ],
+  "placeable": [
+    {
+      "type": "ramp",
+      "count": 1,
+      "area": "free",
+      "bounds": [
+        [
+          1.4,
+          1
+        ],
+        [
+          3.2,
+          3.5
+        ]
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        3.6,
+        0.4
+      ],
+      "dir": "any"
+    },
+    {
+      "id": "t2",
+      "type": "knockdown",
+      "pos": [
+        4.3,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 1,
+  "solutions": [
+    {
+      "cannonAngle": 20,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            2.5,
+            1.6
+          ],
+          "rot": -45
+        }
+      ]
+    },
+    {
+      "cannonAngle": 22,
+      "objects": [
+        {
+          "type": "ramp",
+          "pos": [
+            2.7,
+            1.4
+          ],
+          "rot": 135
+        }
+      ]
+    }
+  ]
+}

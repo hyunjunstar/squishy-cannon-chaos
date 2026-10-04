@@ -1,0 +1,43 @@
+{
+  "levelId": "toyroom_001",
+  "version": 1,
+  "theme": "toyroom",
+  "name": "첫 발사",
+  "tutorial": "drag-cannon",
+  "cannon": {
+    "pos": [
+      0.6,
+      0.45
+    ],
+    "angleRange": [
+      10,
+      80
+    ],
+    "angle": 60,
+    "speed": 8
+  },
+  "fixed": [],
+  "placeable": [],
+  "goals": [
+    {
+      "id": "t1",
+      "type": "knockdown",
+      "pos": [
+        3.9,
+        0.4
+      ],
+      "dir": "any"
+    }
+  ],
+  "starMaxObjects": 0,
+  "solutions": [
+    {
+      "cannonAngle": 17,
+      "objects": []
+    },
+    {
+      "cannonAngle": 18,
+      "objects": []
+    }
+  ]
+}
